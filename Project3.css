@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(247, 244, 242);
+}
+.nav{
+    width: auto;
+    height: 50px;
+    background-color: black;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+.nav1{
+    border: 2px solid rgb(240, 238, 236);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+.img1{
+    margin-left: 850px;
+}
+#o:hover{
+    transform: scale(1.5);
+}
+.nav2{
+    width: auto;
+    height: 60px;
+    background-color: rgb(8, 5, 5);
+    color: rgb(167, 182, 182);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: large;
+}
+p:hover{
+    color: rgb(239, 239, 241);
+}
+.nav3{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    height: 400px;
+    width: 320px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.slide{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.price{
+    display: flex;
+   margin-top: 10px;
+}
+#button{
+    background-color: rgb(250, 218, 35);
+    height: 40px;
+    width: 150px;
+    font-size: large;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+#button:hover{
+    transform: scale(0.75);
+}
+.foot{
+    width: auto;
+    height: 50px;
+    background-color: #32455a;
+    margin-top: 150px;
+    color: white;
+    font-size: small;
+    text-align: center;
+}
+.footpanel{
+    height: 200px;
+    width: auto;
+    background-color: #18222c;
+    color: rgb(145, 149, 153);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footlabel{
+    width: auto;
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
